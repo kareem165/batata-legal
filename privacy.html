@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>سياسة الخصوصية | Batata Tap</title>
+  <meta name="description" content="سياسة الخصوصية لخدمة Batata Tap." />
+  <link rel="canonical" href="privacy.html" />
+  <meta property="og:title" content="سياسة الخصوصية | Batata Tap" />
+  <meta property="og:description" content="كيف نجمع بياناتك ونستخدمها ونحميها." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="privacy.html" />
+  <style>
+    :root { --bg:#0b0c0f; --card:#111319; --muted:#99a1b3; --text:#e8ecf3; --link:#7aa2ff; --ok:#3ecf8e; --warn:#ffd166; }
+    * { box-sizing:border-box }
+    html,body { margin:0; background:var(--bg); color:var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+    .wrap { max-width:900px; margin:40px auto; padding:24px; }
+    .card { background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01)); border:1px solid rgba(255,255,255,.06);
+            border-radius:16px; padding:24px; box-shadow:0 10px 30px rgba(0,0,0,.25); }
+    h1 { font-size:clamp(24px,3vw,34px); margin:0 0 8px }
+    h2 { font-size:clamp(18px,2.2vw,22px); margin:28px 0 12px }
+    p,li { line-height:1.75; color:var(--text) }
+    .muted { color:var(--muted) }
+    .grid { display:grid; gap:14px }
+    .badge { display:inline-block; padding:6px 10px; border-radius:999px; font-size:12px; background:rgba(122,162,255,.12); color:var(--link); border:1px solid rgba(122,162,255,.25) }
+    a { color:var(--link); text-decoration:none }
+    a:hover { text-decoration:underline }
+    .lang { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 2px }
+    .btn { cursor:pointer; border:1px solid rgba(255,255,255,.12); background:#0f1117; color:var(--text);
+           padding:8px 12px; border-radius:10px; font-size:14px }
+    .btn.active { border-color:var(--ok); box-shadow:0 0 0 2px rgba(62,207,142,.2) inset }
+    .note { background:#0e1216; border:1px dashed rgba(255,255,255,.12); padding:12px; border-radius:12px }
+    .list-table { border:1px solid rgba(255,255,255,.08); border-radius:12px; overflow:hidden }
+    .list-table > div { display:grid; grid-template-columns:220px 1fr; }
+    .list-table > div:nth-child(odd) { background:rgba(255,255,255,.02) }
+    .cell { padding:12px 14px; border-inline-end:1px solid rgba(255,255,255,.06) }
+    .cell:last-child { border-inline-end:none }
+    footer { margin-top:18px; font-size:13px; color:var(--muted) }
+    @media (max-width:640px){
+      .list-table > div { grid-template-columns:1fr }
+      .cell { border-inline-end:none; border-bottom:1px solid rgba(255,255,255,.06) }
+      .cell:last-child { border-bottom:none }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="lang" dir="ltr">
+        <button class="btn active" id="btn-ar" aria-pressed="true">العربية</button>
+        <button class="btn" id="btn-en" aria-pressed="false">English</button>
+      </div>
+
+      <!-- Arabic -->
+      <article id="ar" lang="ar" dir="rtl">
+        <h1>سياسة الخصوصية</h1>
+        <p class="muted">آخر تحديث: 27 أغسطس 2025</p>
+        <p>ترحّب بك <strong>Batata Tap</strong> وتقدّر خصوصيتك. توضّح هذه السياسة أنواع البيانات التي نجمعها وكيف نستخدمها ونحميها وخياراتك بشأنها.</p>
+
+        <div class="note">
+          <strong>ملخّص سريع:</strong>
+          <ul>
+            <li>لا نبيع بياناتك الشخصية.</li>
+            <li>لا نطلب أبدًا العبارات السرّية (Seed Phrase) أو المفاتيح الخاصة.</li>
+            <li>نستخدم بيانات الحدّ الأدنى لتشغيل الميزات الأساسية وتحسين الأداء.</li>
+          </ul>
+        </div>
+
+        <h2>الجهة المسؤولة والتواصل</h2>
+        <p><!-- TODO: ضع اسم الجهة/الشركة القانونية هنا --> الجهة المسؤولة عن معالجة البيانات في Batata Tap.
+           للتواصل: <a href="mailto:support@example.com">support@example.com</a> <!-- TODO: غيّر البريد --></p>
+
+        <h2>ما البيانات التي نجمعها؟</h2>
+        <div class="list-table">
+          <div>
+            <div class="cell"><strong>بيانات تُقدّمها لنا</strong></div>
+            <div class="cell">
+              اسم العرض/الملف، البريد الإلكتروني، رقم الهاتف (إن لزم)، اسم المستخدم على X، والمعرّفات العامة التي تربط حسابك بخدماتنا.
+            </div>
+          </div>
+          <div>
+            <div class="cell"><strong>بيانات تُجمع تلقائيًا</strong></div>
+            <div class="cell">
+              معلومات تقنية مثل نوع الجهاز والمتصفح، عنوان IP تقريبي، البلد/المنطقة، ملفات تعريف الارتباط (Cookies) لأغراض الجلسة والأمان وقياس الاستخدام.
+            </div>
+          </div>
+          <div>
+            <div class="cell"><strong>بيانات من أطراف ثالثة</strong></div>
+            <div class="cell">
+              إذا منحت صلاحيات لمنصّات مثل <span class="badge">X (Twitter)</span> قد نتلقّى معرّفك العام، اسم المستخدم، الصورة، ونطاق الصلاحيات الممنوحة. لا نصل إلى الرسائل الخاصة ما لم تمنح صلاحية واضحة لذلك.
+            </div>
+          </div>
+          <div>
+            <div class="cell"><strong>بيانات متعلّقة بالبلوكشين</strong></div>
+            <div class="cell">
+              عناوين المحافظ والمعاملات العلنية عند تفعيل مزايا تتكامل مع الشبكات. لا نقوم بتجميع المفاتيح الخاصة أو العبارات السرّية تحت أي ظرف.
+            </div>
+          </div>
+        </div>
+
+        <h2>كيف نستخدم بياناتك؟</h2>
+        <ul class="grid">
+          <li>تقديم الخدمة وتشغيل الحساب والمصادقة.</li>
+          <li>تحسين الأداء، منع الاحتيال وإساءة الاستخدام، ودعم العملاء.</li>
+          <li>الامتثال للمتطلبات القانونية والرد على الطلبات الرسمية.</li>
+          <li>التكامل مع واجهات <span class="badge">X API</span> ضمن الصلاحيات التي توافق عليها.</li>
+        </ul>
+
+        <h2>الأساس القانوني (GDPR)</h2>
+        <p>نستند إلى: تنفيذ العقد، المصلحة المشروعة (الأمان وتحسين الخدمة)، والرضا (حيث يلزم مثل ملفات الكوكيز الاختيارية).</p>
+
+        <h2>المشاركة مع أطراف ثالثة</h2>
+        <ul>
+          <li>مزودو الاستضافة والتحليلات والدفع—وفق اتفاقيات معالجة بيانات مناسبة.</li>
+          <li>إنفاذ القانون أو جهات تنظيمية عندما يتطلب القانون ذلك.</li>
+        </ul>
+        <p>لا نشارك بياناتك لأغراض بيعها أو تأجيرها.</p>
+
+        <h2>الاحتفاظ بالبيانات</h2>
+        <p>نحتفظ بالبيانات فقط للمدد اللازمة لتلبية أغراض المعالجة والالتزامات القانونية، ثم نحذفها أو نجعلها مجهولة.</p>
+
+        <h2>حقوقك</h2>
+        <ul>
+          <li>الاطلاع والتصحيح والحذف وتقييد المعالجة والاعتراض ونقل البيانات (حيث ينطبق).</li>
+          <li>سحب الموافقة في أي وقت دون التأثير على المعالجة السابقة للسحب.</li>
+          <li>للاستخدام في كاليفورنيا (CCPA): الحق في المعرفة والحذف ورفض “بيع/مشاركة” البيانات.</li>
+        </ul>
+        <p>لممارسة الحقوق: <a href="mailto:privacy@example.com">privacy@example.com</a> <!-- TODO: غيّر البريد --></p>
+
+        <h2>نقل البيانات دولياً</h2>
+        <p>قد تُنقل بياناتك إلى مزودين خارج بلدك مع تطبيق ضمانات مناسبة (بنود تعاقدية قياسية وما شابه).</p>
+
+        <h2>الأمان</h2>
+        <p>نستخدم تدابير تقنية وتنظيمية للحد من المخاطر (التشفير أثناء النقل، التحكم في الوصول). لا توجد وسيلة آمنة 100% على الإنترنت.</p>
+
+        <h2>ملفات تعريف الارتباط</h2>
+        <p>نستخدم ملفات كوكيز أساسية للجلسة والأمان، وقد نستخدم كوكيز تحليلات اختيارية لتحسين المنتج. يمكنك ضبط المتصفّح لتعطيل الكوكيز غير الأساسية.</p>
+
+        <h2>الأطفال</h2>
+        <p>خدماتنا ليست موجّهة لمن هم دون 13 عامًا (أو السنّ المحلي المماثل). سنحذف أي بيانات يتم تلقيها عن طريق الخطأ.</p>
+
+        <h2>التغييرات على هذه السياسة</h2>
+        <p>قد نحدّث هذه السياسة من وقت لآخر. يسري الإصدار المحدّث من تاريخ “آخر تحديث”.</p>
+
+        <h2>روابط مفيدة</h2>
+        <p>الشروط والأحكام: <a href="terms.html">terms.html</a></p>
+
+        <footer>
+          © <span id="y-ar"></span> <!-- سيملؤها السكربت --> Batata Tap. جميع الحقوق محفوظة.
+        </footer>
+      </article>
+
+      <!-- English -->
+      <article id="en" lang="en" dir="ltr" style="display:none">
+        <h1>Privacy Policy</h1>
+        <p class="muted">Last updated: 27 Aug 2025</p>
+        <p><strong>Batata Tap</strong> respects your privacy. This Policy explains what we collect, how we use it, how we protect it, and your choices.</p>
+
+        <div class="note">
+          <strong>Quick summary:</strong>
+          <ul>
+            <li>We do not sell your personal data.</li>
+            <li>We never ask for seed phrases or private keys.</li>
+            <li>We collect the minimum necessary to operate and improve the service.</li>
+          </ul>
+        </div>
+
+        <h2>Controller & Contact</h2>
+        <p><!-- TODO: Put your legal entity name here --> is the data controller for Batata Tap.
+           Contact: <a href="mailto:support@example.com">support@example.com</a> <!-- TODO --></p>
+
+        <h2>Data We Collect</h2>
+        <div class="list-table">
+          <div>
+            <div class="cell"><strong>Data you provide</strong></div>
+            <div class="cell">Profile/display name, email, phone (if needed), X username, and public identifiers linking your account to our services.</div>
+          </div>
+          <div>
+            <div class="cell"><strong>Automatically collected</strong></div>
+            <div class="cell">Device/browser info, approximate IP, country/region, and cookies for session, security, and usage measurement.</div>
+          </div>
+          <div>
+            <div class="cell"><strong>From third parties</strong></div>
+            <div class="cell">When you grant access to platforms like <span class="badge">X (Twitter)</span>, we may receive your public ID, handle, avatar, and scopes. We do not access DMs without explicit permission.</div>
+          </div>
+          <div>
+            <div class="cell"><strong>Blockchain-related</strong></div>
+            <div class="cell">Public wallet addresses and on-chain activity when features integrate with networks. We never collect private keys or seed phrases.</div>
+          </div>
+        </div>
+
+        <h2>How We Use Data</h2>
+        <ul class="grid">
+          <li>Provide the service, operate accounts, and authenticate users.</li>
+          <li>Improve performance, prevent fraud/abuse, and provide support.</li>
+          <li>Comply with legal obligations and respond to lawful requests.</li>
+          <li>Integrate with <span class="badge">X API</span> strictly within scopes you authorize.</li>
+        </ul>
+
+        <h2>Legal Bases (GDPR)</h2>
+        <p>Contract performance, legitimate interests (security & improvement), and consent (e.g., optional cookies).</p>
+
+        <h2>Sharing</h2>
+        <ul>
+          <li>Hosting, analytics, and payment providers—under appropriate data processing agreements.</li>
+          <li>Law enforcement/regulators when required by law.</li>
+        </ul>
+        <p>We do not sell or rent your personal data.</p>
+
+        <h2>Retention</h2>
+        <p>We retain data only as long as necessary for the purposes above and legal requirements, then delete or anonymize it.</p>
+
+        <h2>Your Rights</h2>
+        <ul>
+          <li>Access, rectify, delete, restrict, object, and data portability (where applicable).</li>
+          <li>Withdraw consent at any time without affecting prior lawful processing.</li>
+          <li>For California (CCPA): right to know, delete, and opt out of “sale/sharing.”</li>
+        </ul>
+        <p>To exercise rights: <a href="mailto:privacy@example.com">privacy@example.com</a> <!-- TODO --></p>
+
+        <h2>International Transfers</h2>
+        <p>We may transfer data to providers outside your country with appropriate safeguards (e.g., SCCs).</p>
+
+        <h2>Security</h2>
+        <p>We apply technical and organizational measures (TLS in transit, access controls). No method is 100% secure.</p>
+
+        <h2>Cookies</h2>
+        <p>We use essential cookies for session and security, and may use optional analytics cookies to improve the product. You can configure your browser to limit non-essential cookies.</p>
+
+        <h2>Children</h2>
+        <p>Our services are not directed to children under 13 (or local equivalent). We delete such data if received inadvertently.</p>
+
+        <h2>Changes</h2>
+        <p>We may update this Policy from time to time. The updated version takes effect on the “Last updated” date.</p>
+
+        <h2>Helpful Links</h2>
+        <p>Terms & Conditions: <a href="terms.html">terms.html</a></p>
+
+        <footer>
+          © <span id="y-en"></span> Batata Tap. All rights reserved.
+        </footer>
+      </article>
+    </div>
+  </div>
+
+  <script>
+    // year stamps
+    const y = new Date().getFullYear();
+    document.getElementById('y-ar').textContent = y;
+    document.getElementById('y-en').textContent = y;
+
+    // language toggle
+    const btnAr = document.getElementById('btn-ar');
+    const btnEn = document.getElementById('btn-en');
+    const ar = document.getElementById('ar');
+    const en = document.getElementById('en');
+
+    function setLang(lang){
+      const isAr = lang === 'ar';
+      ar.style.display = isAr ? 'block' : 'none';
+      en.style.display = isAr ? 'none' : 'block';
+      document.documentElement.lang = isAr ? 'ar' : 'en';
+      document.documentElement.dir  = isAr ? 'rtl' : 'ltr';
+      btnAr.classList.toggle('active', isAr);
+      btnEn.classList.toggle('active', !isAr);
+      btnAr.setAttribute('aria-pressed', isAr ? 'true' : 'false');
+      btnEn.setAttribute('aria-pressed', !isAr ? 'true' : 'false');
+      document.title = isAr ? "سياسة الخصوصية | Batata Tap" : "Privacy Policy | Batata Tap";
+    }
+    btnAr.addEventListener('click', () => setLang('ar'));
+    btnEn.addEventListener('click', () => setLang('en'));
+  </script>
+</body>
+</html>
